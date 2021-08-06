@@ -1,0 +1,23 @@
+// stylelint-disable scss/dollar-variable-empty-line-before
+
+// COLORS
+$color-white: #fff;
+$color-light: #e2e2e2;
+$color-dark: #252525;
+$color-black: #000;
+
+$color-yellow: #fc0;
+
+$border-color: #d9d9d9;
+
+// FONTS
+$font-family-roboto: "roboto", sans-serif;
+$font-family-HeliosCond: "HeliosCond", sans-serif;
+
+// typography
+$body-background: $color-white;
+$body-font-color: $color-dark;
+$body-font-family: $font-family-roboto;
+$global-font-size: 1.6rem;
+$global-weight-normal: 400;
+$global-line-height: 1.5;

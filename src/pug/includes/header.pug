@@ -1,0 +1,87 @@
+header.header
+    .container
+        .row
+            .col-1-5
+                .logo
+                    img(src="./images/logo.jpg")
+                    span магазин инструмента
+            .col-4-5
+                nav.nav.nav-top
+                    ul
+                        li
+                            a(href="/") Каталог инструментов
+                        li
+                            a(href="/") Все для сада
+                        li
+                            a(href="/") Ручной инструмент
+                        li
+                            a(href="/") Электрика
+                        li
+                            a(href="/") Доставка
+                        li
+                            a(href="/") Оплата
+                        li
+                            a(href="/") О нас
+                    .header-lk
+                        a(href="/") Вход
+                        span |
+                        a(href="/") Регистрация
+
+                .row
+                    .col
+                        .header-banner
+                    .col
+                        .header-basket
+                            .row
+                                .col
+                                    .header-basket-item
+                                        .header-basket-icon
+                                            +svg("cart")(width="19" height="18")
+                                        a(href="") 3 шт.&nbsp;/&nbsp;&nbsp;17 250 р.
+                                    .header-basket-item
+                                        .header-basket-icon
+                                            +svg("star")(width="14" height="15")
+                                        a(href="") Избранное (7)
+                                    .header-basket-item
+                                        .header-basket-icon
+                                            +svg("balance")(width="18" height="16")
+                                        a(href="") К сравнению (5)
+                                .col
+                                    .header-preview
+                                        .header-preview-item
+                                            img(src="./images/basket-item-1.jpg")
+                                        .header-preview-item
+                                            img(src="./images/basket-item-2.jpg")
+                                        .header-preview-item
+                                            img(src="./images/basket-item-3.jpg")
+                    .col.header-contacts
+                        .header-contacts-hours
+                            span Время работы:
+                            span 10:00 — 19:00
+                        .header-contacts-phone
+                            a(href="tel:8 495 721-25-25") 8 495 721-25-25
+                        .header-contacts-city
+                            span Москва
+                            a(href="") сменить
+        nav.nav.nav-main
+            .header-search
+                a.button.button-search#button-search(href="")
+                .header-search-input
+                    input(type="text")
+            ul
+                li.active
+                    a(href="") Перфораторы
+                li
+                    a(href="") Дрели
+                li
+                    a(href="") Шлифмашины
+                li
+                    a(href="") Пистолеты
+                li
+                    a(href="") Электропилы
+                li
+                    a(href="") Наборы инструментов
+                li
+                    a(href="") Аксессуары
+            .header-sale
+                a.button(href="") Распродажа
