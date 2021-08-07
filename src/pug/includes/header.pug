@@ -1,18 +1,18 @@
 header.header
     .container
         .row
-            .col-1-5
+            .col
                 .logo
                     img(src="./images/logo.jpg")
                     span магазин инструмента
-            .col-4-5
+            .col.flex-1
                 nav.nav.nav-top
                     ul
                         li
                             a(href="/") Каталог инструментов
                         li
                             a(href="/") Все для сада
-                        li
+                        li.d-lg-none
                             a(href="/") Ручной инструмент
                         li
                             a(href="/") Электрика
@@ -28,7 +28,7 @@ header.header
                         a(href="/") Регистрация
 
                 .row
-                    .col
+                    .col.d-lg-none
                         .header-banner
                     .col
                         .header-basket

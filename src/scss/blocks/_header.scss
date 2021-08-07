@@ -5,6 +5,7 @@
 
 	.logo {
 		width: 21rem;
+		min-width: 21rem;
 		max-width: 100%;
 		padding-top: 1rem;
 		display: flex;
@@ -27,6 +28,9 @@
 
 			li {
 				padding: 0 1rem;
+				@media (max-width: $breakpoint-lg-max) {
+					padding: 0 .8rem;
+				}
 				a {
 					display: inline-block;
 					text-decoration: none;
@@ -75,6 +79,10 @@
 						padding: 0 1.8rem;
 						color: $color-white;
 						background-color: $color-dark;
+
+						@media (max-width: $breakpoint-lg-max) {
+							padding: 0 0.8rem;
+						}
 
 						&:hover,
 						&.active {

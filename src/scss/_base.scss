@@ -59,6 +59,10 @@ svg {
 	padding: 0 1.5rem;
 	width: 100%;
 	max-width: 120rem;
+
+	@media (max-width: $breakpoint-lg-max) {
+		max-width: 96rem;
+	}
 }
 
 .row {
@@ -84,3 +88,11 @@ svg {
 .col-3-5 { width: 60%; }
 .col-4-5 { width: 80%; }
 
+.flex-1 { flex: 1; }
+
+
+.d-lg-none {
+	@media (max-width: $breakpoint-lg-max) {
+		display: none;
+	}
+}

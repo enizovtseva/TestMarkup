@@ -12,6 +12,10 @@
   border: none;
   background-color: $color-yellow;
 
+  @media (max-width: $breakpoint-lg-max) {
+    padding: 0 1.7rem;
+  }
+
   &:hover {}
 
   &-search {
